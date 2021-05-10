@@ -1,0 +1,82 @@
+body {
+    background-color: #0ebd51;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+  
+#gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 10;
+}
+  
+#gradient2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 3;
+    background-image: -webkit-radial-gradient(80% 10%, circle, rgb(26, 218, 170), transparent),  -webkit-radial-gradient(80% 50%, circle, rgb(58, 178, 118), transparent),  -webkit-radial-gradient(20% 80%, 40em 40em, rgb(57, 226, 100), transparent),  -webkit-radial-gradient(10% 10%, circle, rgb(68, 242, 120), transparent);
+}
+
+@font-face {
+	font-family: 'Neoteric';
+	src: url('fonts/Neoteric.ttf') format('truetype'); 
+}
+h1{
+    position: absolute;
+    font-family: 'Neoteric';
+    scale: 200%;
+    text-align: center;
+    letter-spacing: 3px;
+    top: 15px;
+    color:white;
+    left: 50%;
+    z-index: 15;
+    width: 100%;
+    left: 0px;
+    text-shadow: 2px 2px rgba(0,0,0,0.2)
+}
+
+button {
+    position: absolute;
+    background-color:white; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Neoteric';
+    font-weight: 900;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    z-index: 20;
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btnProjects {
+    top: 100px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+.btnProjects:hover {
+    background-color: white;
+    color: green;
+  }
+.btnPlans {
+    top: 170px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+.btnPlans:hover {
+    background-color: white;
+    color: green;
+  }
+
+  
